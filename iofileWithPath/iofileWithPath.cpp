@@ -31,7 +31,7 @@ int main()
 	//selesai dalam menuli sekarang tutup filenya
 	outfile.close();
 
-	//membuka file dalam mode membaca
+	
 	ifstream infile;
 	//menunjuk ke sebuah file
 	infile.open(NamaFile, ios::in);
